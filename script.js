@@ -5,42 +5,42 @@ const productData = {
       title: "Wacom Cintiq Pro 27",
       price: "₱215,000",
       rating: 5,
-      img: "public/pro/wacom%20cintiq%20pro%2027.webp"
+      img: "assets/pro/wacom%20cintiq%20pro%2027.webp"
     },
     {
       id: 2,
       title: "Wacom Cintiq 16",
       price: "₱115,000",
       rating: 5,
-      img: "public/pro/wacom%20cintiq%2016%20.webp"
+      img: "assets/pro/wacom%20cintiq%2016%20.webp"
     },
     {
       id: 3,
       title: "Wacom MobileStudio Pro 16",
       price: "₱230,000",
       rating: 5,
-      img: "public/pro/wacom%20mobile%20studio%20pro%2016.webp"
+      img: "assets/pro/wacom%20mobile%20studio%20pro%2016.webp"
     },
     {
       id: 4,
       title: "Wacom Intuos Pro Large",
       price: "₱31,000",
       rating: 5,
-      img: "public/pro/wacom%20intuos%20pro%20large.webp"
+      img: "assets/pro/wacom%20intuos%20pro%20large.webp"
     },
     {
       id: 5,
       title: "Wacom Intuos Pro Medium",
       price: "₱23,000",
       rating: 4,
-      img: "public/pro/wacom%20intuos%20pro%20medium.webp"
+      img: "assets/pro/wacom%20intuos%20pro%20medium.webp"
     },
     {
       id: 6,
       title: "Wacom Cintiq 22",
       price: "₱46,500",
       rating: 4,
-      img: "public/pro/wacom%20cintiq%2022.webp"
+      img: "assets/pro/wacom%20cintiq%2022.webp"
     }
   ],
   beginner: [
@@ -49,42 +49,42 @@ const productData = {
       title: "Wacom One 13 Touch",
       price: "₱31,000",
       rating: 5,
-      img: "public/noob/wacom%20one%2013%20touch.webp"
+      img: "assets/noob/wacom%20one%2013%20touch.webp"
     },
     {
       id: 8,
       title: "Wacom One 12 Pen Display",
       price: "₱22,295",
       rating: 4,
-      img: "public/noob/wacom%20one%2012%20pen%20display.webp"
+      img: "assets/noob/wacom%20one%2012%20pen%20display.webp"
     },
     {
       id: 9,
       title: "Wacom Intuos Medium (Bluetooth)",
       price: "₱8,000",
       rating: 5,
-      img: "public/noob/wacom%20intuous%20medium%20bluetooth.webp"
+      img: "assets/noob/wacom%20intuous%20medium%20bluetooth.webp"
     },
     {
       id: 10,
       title: "One by Wacom Medium",
       price: "₱4,900",
       rating: 4,
-      img: "public/noob/one%20by%20wacom%20medium.webp"
+      img: "assets/noob/one%20by%20wacom%20medium.webp"
     },
     {
       id: 11,
       title: "Wacom Intuos Small",
       price: "₱2,500",
       rating: 4,
-      img: "public/noob/wacom%20intuous%20small.webp"
+      img: "assets/noob/wacom%20intuous%20small.webp"
     },
     {
       id: 12,
       title: "One by Wacom Small",
       price: "₱3,300",
       rating: 4,
-      img: "public/noob/one%20by%20wacom%20small.webp"
+      img: "assets/noob/one%20by%20wacom%20small.webp"
     }
   ],
   styluses: [
@@ -93,42 +93,42 @@ const productData = {
       title: "Wacom Pro Pen 3",
       price: "₱8,000",
       rating: 5,
-      img: "public/stylus/wacom%20pro%20pen%203.webp"
+      img: "assets/stylus/wacom%20pro%20pen%203.webp"
     },
     {
       id: 14,
       title: "Wacom Pro Pen 2",
       price: "₱5,900",
       rating: 5,
-      img: "public/stylus/wacom%20pro%20pen%202.webp"
+      img: "assets/stylus/wacom%20pro%20pen%202.webp"
     },
     {
       id: 15,
       title: "Wacom Pro Pen Slim",
       price: "₱5,000",
       rating: 4,
-      img: "public/stylus/wacom%20pro%20pen%20slim.webp"
+      img: "assets/stylus/wacom%20pro%20pen%20slim.webp"
     },
     {
       id: 16,
       title: "Wacom One Standard Pen",
       price: "₱2,150",
       rating: 4,
-      img: "public/stylus/wacom%20one%20standard%20pen.png"
+      img: "assets/stylus/wacom%20one%20standard%20pen.png"
     },
     {
       id: 17,
       title: "Wacom Bamboo Ink Plus",
       price: "₱6,650",
       rating: 4,
-      img: "public/stylus/wacom%20bamboo%20ink%20plus.webp"
+      img: "assets/stylus/wacom%20bamboo%20ink%20plus.webp"
     },
     {
       id: 18,
       title: "Wacom Finetip Pen",
       price: "₱6,150",
       rating: 4,
-      img: "public/stylus/wacom%20finetip%20pen.webp"
+      img: "assets/stylus/wacom%20finetip%20pen.webp"
     }
   ]
 };
