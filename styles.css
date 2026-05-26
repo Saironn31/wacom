@@ -126,7 +126,7 @@ button {
 }
 
 .hero {
-  background: url("public/bg colorful yay.png") center / cover no-repeat;
+  background: url("assets/bg colorful yay.png") center / cover no-repeat;
   color: #ffffff;
   padding: 80px 0 70px;
   position: relative;
@@ -289,7 +289,7 @@ button {
 }
 
 .promo-text {
-  background: url("public/one by wacom bg.jpg") center / cover no-repeat;
+  background: url("assets/one by wacom bg.jpg") center / cover no-repeat;
   border-radius: var(--radius-lg);
   padding: 36px;
   display: grid;
