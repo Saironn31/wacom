@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yourshop | Tablets & Styluses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="index.html" aria-label="Wacom home">
+          <img src="public/Wacom-logo.png" alt="Wacom" />
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="products.html" class="nav-link">Shop</a>
+        </nav>
+        <form class="search" role="search">
+          <svg
+            class="search-icon"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input
+            type="search"
+            class="search-input"
+            placeholder="Search tablets & pens"
+            aria-label="Search"
+          />
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="hero-content">
+            <h1>Your era starts here.</h1>
+            <p class="hero-copy">
+              Wacom provides interactive pen displays, graphic tablets, and smart
+              styli that empower digital creators, designers, and educators to
+              bring their visions to life.
+            </p>
+            <button class="btn">Explore</button>
+          </div>
+          <div class="hero-media">
+            <div class="hero-frame">
+              <img src="public/bg.png" alt="Creative workflow illustration" />
+            </div>
+            <p class="hero-kicker hero-kicker-right">One by Wacom</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="category-tabs" aria-label="Product categories">
+        <a
+          class="category-card"
+          data-category="professional"
+          href="products.html?category=professional"
+        >
+          <div class="category-image">
+            <img src="public/pro%20tab.webp" alt="Professional tablet" />
+          </div>
+          <span class="category-title">Professional Tablets</span>
+        </a>
+        <a
+          class="category-card"
+          data-category="beginner"
+          href="products.html?category=beginner"
+        >
+          <div class="category-image">
+            <img src="public/noob%20tab.webp" alt="Beginner friendly tablet" />
+          </div>
+          <span class="category-title">Beginner Friendly Tablets</span>
+        </a>
+        <a
+          class="category-card"
+          data-category="styluses"
+          href="products.html?category=styluses"
+        >
+          <div class="category-image">
+            <img src="public/stylus%20tab.webp" alt="Smart stylus" />
+          </div>
+          <span class="category-title">Smart Styluses</span>
+        </a>
+      </section>
+
+      <section class="promo">
+        <div class="promo-image">
+          <img
+            src="public/one%20by%20wacom%20section.webp"
+            alt="One by Wacom pen tablet"
+          />
+        </div>
+        <div class="promo-text">
+          <h2>One by Wacom</h2>
+          <p>
+            The Wacom One 12 is an entry-level pen display with a built-in
+            screen, allowing you to draw directly on your artwork. The One by
+            Wacom is a screenless pen tablet; you draw on a blank surface while
+            looking at your separate computer monitor.
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <h3>About Wacom</h3>
+          <p>
+            Wacom encourages aspiring artists to believe that every creative
+            journey starts with a single step, and that with the right tools,
+            their ideas have the potential to grow into meaningful and powerful
+            works of art.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Warranty</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Subscribe Newsletter</h3>
+          <form class="newsletter">
+            <input type="email" placeholder="Email address" required />
+            <button type="submit" aria-label="Submit email">
+              &#8594;
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
